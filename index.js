@@ -144,8 +144,17 @@ Use the removeFlavorByName function below to do the following:
 */
 
 function removeFlavorByName(array,string2){
- 
+ for (let i=0; i<array.length; i++){ //scans array starting at index 0
+   if(array[i]===string2){ //determines match between passed string
+    //and array at [index]
+      array.splice(i,1); //does the needful to replace item with
+      //user's string
+   }
+ }
+ return array;
 }
+
+console.log(removeFlavorByName(originalFlavors,'Rocky Road'));
 
 
 
