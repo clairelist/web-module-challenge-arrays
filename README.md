@@ -18,7 +18,7 @@ Your challenge today will be to work with their array of ice cream flavors to ac
 ### Task 1: Set up Project
 
 Using VSCode and Command Line:
-
+sdklavndsklbnad
 
 1. Fork the repo
 2. Clone your forked version of the repo
